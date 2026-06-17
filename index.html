@@ -151,11 +151,11 @@ body{
 
 /* ================= CONTENT ================= */
 .container{
-    max-width:500px;
-    margin:40px auto 15px;
+    max-width:620px;
+    margin:25px auto;
     background:#fff;
-    padding:25px;
-    box-shadow:0 0 25px rgba(0,0,0,0.50);
+    padding:30px;
+    box-shadow:0 0 20px rgba(0,0,0,.2);
 }
 
 
@@ -166,22 +166,29 @@ body{
     font-size:14px;                 /* ✔ exact like original */
     font-family: "Segoe UI", Arial, sans-serif;
     color:#000;
+	table-layout:fixed;
 }
 
 .data-table td{
     border:1px solid #d9dee3;
-    padding:10px 12px;              /* ✔ tighter rows */
+    padding:12px 14px;              /* ✔ tighter rows */
     vertical-align:middle;
     font-weight:400;                /* ✔ remove bold */
 	 letter-spacing:0.1px;
-    line-height:1.35;
+    line-height:1.5;
+	 word-break:break-word;
 }
 
 .data-table td:first-child{
-    width:20%;
+    width:22%;
     background:#ffffff;
+	min-width:140px;
+    font-weight:500;
+	 white-space:nowrap;
 }
-
+.data-table td:nth-child(2){
+    width:78%;
+}
 /* ================= FOOTER ================= */
 .gov-footer{
     background: linear-gradient(
@@ -569,13 +576,12 @@ setTimeout(hideLoader, 2000);
 <div class="container">
 <table class="data-table">
 <tr><td>Registration Number</td><td>3672/42</td></tr>
-<tr><td>Name</td><td>NURMAHMAD NIJAMBHAI THIM / નૂરમહમદ નિજામભાઈ થીમ </td></tr>
+<tr><td>Name</td><td>NURMAHMAD NIJAMBHAI THIM / નૂરમહમદ નિજામભાઈ થીમ  </td></tr>
 <tr><td>Gender</td><td>Male</td></tr>
 <tr><td>Date of Birth</td><td>30/03/1997</td></tr>
 <tr><td>Name of Mother</td><td> MUMTAJBEN NIJAMBHAI THIM / મુમતાજબેન નિજામભાઈ થીમ </td></tr>
 <tr><td>Name of Father</td><td> NIJAMBHAI NURMAHMADBHAI THIM / નિજામભાઈ નૂરમહમદભાઈ થીમ </td></tr>
-<tr><td>Place of Birth</td><td>SIR TAKHTASINHJI HOSPITAL, ZONE -1, BHAVNAGAR MUNICIPAL CORPORATION, BHAVNAGAR, BHAVNAGAR, GUJARAT / સર તખ્તસિંહજી
-	હોસ્પિટલ, ઝોન - ૧, ભાવનગર મહાનગરપાલિકા, ભાવનગર, ભાવનગર, ગુજરાત </td></tr>
+<tr><td>Place of Birth</td><td>SIR TAKHTASINHJI HOSPITAL, ZONE -1, BHAVNAGAR MUNICIPAL CORPORATION, BHAVNAGAR, BHAVNAGAR, GUJARAT / સર તખ્તસિંહજી હોસ્પિટલ, ઝોન - ૧, ભાવનગર મહાનગરપાલિકા, ભાવનગર, ભાવનગર, ગુજરાત </td></tr>
 <tr><td>Registration Date</td><td>09/04/1997</td></tr>
 <tr><td>Registration Unit Name</td><td>ZONE - 1 Bhavnagar Municipal Corporation/ ઝોન  - ૧  ભાવનગર  મહાનગરપાલિકા </td></tr>
 <tr><td>Registration Unit Code</td><td>90002</td></tr></table>
