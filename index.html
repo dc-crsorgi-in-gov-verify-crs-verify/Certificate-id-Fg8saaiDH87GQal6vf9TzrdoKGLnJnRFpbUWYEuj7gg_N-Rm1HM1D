@@ -160,13 +160,17 @@ body{
 
 
 /* ---------- TABLE ---------- */
-.data-table{
-    width:100%;
-    border-collapse:collapse;
-    font-size:14px;                 /* ✔ exact like original */
-    font-family: "Segoe UI", Arial, sans-serif;
-    color:#000;
-	table-layout:auto;
+.data-table td{
+    border:1px solid #d9dee3;
+    padding:12px 14px;
+    vertical-align:top;
+    font-weight:400;
+    letter-spacing:0.1px;
+    line-height:1.5;
+
+    word-break:normal;
+    overflow-wrap:break-word;
+    white-space:normal;
 }
 
 .data-table td{
@@ -181,15 +185,12 @@ body{
 }
 
 .data-table td:first-child{
-    width:220px;
+    width:35%;
     background:#ffffff;
-	min-width:180px;
     font-weight:500;
-	 white-space:normal;
-	word-break:break-word;	
 }
 .data-table td:nth-child(2){
-    width:78%;
+    width:65%;
 }
 /* ================= FOOTER ================= */
 .gov-footer{
@@ -299,7 +300,15 @@ body{
         padding:30px;           /* 👈 inner space */
         border-radius:4px;
     }
+.data-table{
+    table-layout:fixed;
+    width:100%;
+}
 
+.data-table td{
+    word-break:normal !important;
+    overflow-wrap:anywhere;
+}
     /* Mobile icons */
     .mobile-icon{
         display:inline-flex;
