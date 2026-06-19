@@ -166,25 +166,27 @@ body{
     font-size:14px;                 /* ✔ exact like original */
     font-family: "Segoe UI", Arial, sans-serif;
     color:#000;
-	table-layout:fixed;
+	table-layout:auto;
 }
 
 .data-table td{
     border:1px solid #d9dee3;
     padding:12px 14px;              /* ✔ tighter rows */
-    vertical-align:middle;
+    vertical-align:top;
     font-weight:400;                /* ✔ remove bold */
 	 letter-spacing:0.1px;
     line-height:1.5;
 	 word-break:break-word;
+	overflow:hidden;
 }
 
 .data-table td:first-child{
-    width:22%;
+    width:220px;
     background:#ffffff;
-	min-width:140px;
+	min-width:180px;
     font-weight:500;
-	 white-space:nowrap;
+	 white-space:normal;
+	word-break:break-word;	
 }
 .data-table td:nth-child(2){
     width:78%;
