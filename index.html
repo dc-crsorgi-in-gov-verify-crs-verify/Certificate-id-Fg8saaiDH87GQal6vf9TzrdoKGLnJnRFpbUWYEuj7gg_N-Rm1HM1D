@@ -151,11 +151,11 @@ body{
 
 /* ================= CONTENT ================= */
 .container{
-    max-width:620px;
-    margin:25px auto;
+    max-width:500px;
+    margin:40px auto 15px;
     background:#fff;
-    padding:30px;
-    box-shadow:0 0 20px rgba(0,0,0,.2);
+    padding:25px;
+    box-shadow:0 0 25px rgba(0,0,0,0.50);
 }
 
 
@@ -166,29 +166,22 @@ body{
     font-size:14px;                 /* ✔ exact like original */
     font-family: "Segoe UI", Arial, sans-serif;
     color:#000;
-	table-layout:fixed;
 }
 
 .data-table td{
     border:1px solid #d9dee3;
-    padding:12px 14px;              /* ✔ tighter rows */
+    padding:10px 12px;              /* ✔ tighter rows */
     vertical-align:middle;
     font-weight:400;                /* ✔ remove bold */
 	 letter-spacing:0.1px;
-    line-height:1.5;
-	 word-break:break-word;
+    line-height:1.35;
 }
 
 .data-table td:first-child{
-    width:22%;
+    width:20%;
     background:#ffffff;
-	min-width:140px;
-    font-weight:500;
-	 white-space:nowrap;
 }
-.data-table td:nth-child(2){
-    width:78%;
-}
+
 /* ================= FOOTER ================= */
 .gov-footer{
     background: linear-gradient(
@@ -383,7 +376,7 @@ body{
 #page-loader.hide{
     opacity:0;
     pointer-events:none;
-    transition:opacity 0.5s ease;
+    transition:opacity 4s ease;
 }
 .loader-ring{
     z-index:1;
@@ -586,6 +579,7 @@ setTimeout(hideLoader, 2000);
 <tr><td>Registration Unit Name</td><td>ZONE - 1 Bhavnagar Municipal Corporation/ ઝોન  - ૧  ભાવનગર  મહાનગરપાલિકા </td></tr>
 <tr><td>Registration Unit Code</td><td>90002</td></tr></table>
 </div>
+
 
 <!-- ================= FOOTER ================= -->
 <footer class="gov-footer">
